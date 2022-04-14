@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <hr>
+    <h1>Display</h1>
+    <hr>
+    <span class="d-block p-2 bg-primary text-dark">span display-block</span>
+    <span class="d-block p-2 bg-danger text-dark">span display-block</span>
+    <div class="d-inline-block p-2 bg-primary" style="width: 75%;">This div is a inline-block and i am styling width 75%</div>
+    <span class="d-inline-block p-2 bg-success text-dark">span display-inline-block</span>
+    <div class="d-inline p-2 bg-primary text-white">This is a inline div</div>
+    <a href="#" class="d-inline-block bg-dark text-white" style="width: 10%;">d-inline-block w-10%</a>
+    <a href="#" class="d-inline-block bg-success text-white" style="width: 30%;">display inline-block width 30%</a>
+    <a href="#" class="d-inline-block bg-danger text-white" style="width: 50%;">display inline-block width 50%</a>
+    <button class="d-lg-inline-block d-sm-none bg-primary text-dark">Download</button>
+    <div class="d-table">
+        <div class="d-table-row">
+            <div class="d-table-cell bg-primary text-white" style="width: 20%;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quidem!Necessitatibus, maxime.</div>
+            <div class="d-table-cell bg-secondary" style="width: 60%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ullam natus molestias tempore voluptates velit, deleniti incidunt, ut corrupti quidem similique excepturi rerum cumque! Adipisci incidunt numquam magnam vero repudiandae minus, fuga officiis ad aliquam quod praesentium unde. Quo dolorum expedita labore a fugit nemo, fuga officiis similique, obcaecati vitae tempora eveniet deserunt est facilis laborum excepturi, corporis id. Ex!</div>
+            <div class="d-table-cell bg-danger" style="width: 20%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sequi totam eum repellat dolore facilis accusantium dolores cum dignissimos rerum!</div>
+        </div>
+        </div>
+        <div class="d-print-none bg-warning">Screen only</div>
+        <div class="d-none d-print-block">Print only</div>
+        <div class="d-none d-lg-block d-print-block bg-primary">Hide up to large on screen, but alawys show on print</div>
+        <hr>
+        <h1>Flex</h1>
+        <hr>
+        <div class="d-flex p-2 bg-primary">Normal flexbox</div>
+        <div class="d-inline-flex p-2 bg-warning">This is an inline flexbox</div>
+        <div class="d-flex flex-row bg-secondary">
+            <div class="p-2 bg-danger text-warning">Flex item 1</div>
+            <div class="p-2 bg-success text-danger">Flex item 2</div>
+            <div class="p-2 bg-primary text-dark">Flex item 3</div>
+        </div>
+        <div class="d-flex flex-row-reverse bg-secondary">
+            <div class="p-2 bg-warning text-success">Flex itme 1</div>
+            <div class="p-2 bg-success">flex item 2</div>
+            <div class="p-2 bg-white text-danger">Flex items 3</div>
+        </div>
+        <hr>
+        <div class="d-flex flex-column bg-primary">
+            <div class="p-2">First box</div>
+            <div class="p-2">Second box</div>
+            <div class="p-2">Third box</div>
+        </div>
+        <div class="d-flex flex-column-revesre bg-success">
+            <div class="p-2">First box</div>
+            <div class="p-2">Second box</div>
+            <div class="p-2">Third box</div>
+        </div>
+        <div class="d-flex flex-column bg-primary">
+            <div class="p-2">Flex item 1</div>
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2">Flex item 3</div>
+          </div>
+          <div class="d-flex flex-column-reverse bg-success">
+            <div class="p-2">Flex item 1</div>
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2">Flex item 3</div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-start text-white bg-secondary">Flex Start</div>
+          <div class="d-flex justify-content-end text-white bg-dark">Flex End</div>
+          <div class="d-flex justify-content-center text-white bg-secondary">Flex Center</div>
+          <div class="d-flex justify-content-between text-white bg-dark">Flex Between</div>
+          <div class="d-fles justify-content-around text-white bg-secondary">Flex Around</div>
+          <hr>
+          <div class="d-flex align-items-start">Align items start</div>
+          <div class="d-flex align-items-end">Align items end</div>
+          <div class="d-flex align-items-center">Align items center</div>
+          <div class="d-flex align-items-baseline">Align items baseline</div>
+          <div class="d-flex align-items-stretch">Align items stretch</div>
+          <div class="d-flex align-items-start">...</div>
+<div class="d-flex align-items-end">...</div>
+<div class="d-flex align-items-center">...</div>
+<div class="d-flex align-items-baseline">...</div>
+<div class="d-flex align-items-stretch">...</div>
+    <hr>
+        <div class="align-self-start">Alignned flex item</div>
+        <div class="align-self-end">Alignned flex item</div>
+        <div class="align-self-center">Align flex item</div>
+        <div class="align-self-baseline">Align flex item</div>
+        <div class="align-self-stretch">Align flex item</div>
+        <hr>
+          <div class="d-flex bg-warning">
+              <div class="p-2">Flex item</div>
+              <div class="p-2">Flex item</div>
+              <div class="p-2">Flex item</div>
+          </div>
+          <div class="d-flex">
+              <div class="mr-auto p-2 text-primary">OUR FLAG</div>
+              <div class="p-2 text-primary">Flex item</div>
+              <div class="p-2 text-primary">Flex item</div>
+          </div>
+          <div class="d-flex bg-success">
+              <div class="p-2">Flex item</div>
+              <div class="p-2">Flex itme</div>
+              <div class="ml-auto p-2">Flex item</div>
+          </div>
+          <hr>
+          <div class="d-flex align-items-start flex-column bg-primary" style="height: 200px;">
+            <div class="mb-auto p-2">Flex item</div>
+            <div class="p-2">Flex item</div>
+            <div class="p-2">Flex item</div>
+        </div>
+        <div class="d-flex align-items-end flex-column bg-danger" style="height: 200px;">
+            <div class="p-2">Flex item</div>
+            <div class="p-2">Flex item</div>
+            <div class="mt-auto p-2">Flex item</div>
+        </div>
+        <hr>
+        <h3>Wrap</h3>
+        <div class="d-flex flex-nowrap">
+            Flex-nowrap
+        </div>
+        <div class="d-flex flex-wrap">
+            Flex-wrap
+        </div>
+        <div class="d-flex flex-wrap-reverse">
+            Flex-wrap-reverse
+        </div>
+        <hr>
+        <div class="d-flex flex-nowrap bg-success">
+            <div class="order-3 p-2">Order 1</div>
+            <div class="order-2 p-2">Order 2</div>
+            <div class="order-1 p-2">Order 3</div>
+        </div>
+        <div class="d-flex align-content-start flex-wrap">
+            d-flex align-content-start flex-wrap
+        </div>
+        <div class="d-flex align-content-end flex-wrap">
+            d-flex align-content-end flex-wrap
+        </div>
+        <div class="d-flex align-content-center flex-wrap">
+            d-flex align-content-center flex-wrap
+        </div>
+        <div class="d-flex align-content-between flex-wrap">
+            d-flex align-content-between flex wrap
+        </div>
+        <div class="d-flex align-content-around flex-wrap">d-flex align-contnet-around flex-wrap</div>
+        <div class="d-flex align-content-stretch flex-wrap">
+            d-flex align-content-stretch flex-wrap
+        </div>
+    </body>
+</html>
